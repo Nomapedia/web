@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.disgrafia {
+    font-family: Arial;
+    background-color: #86000056;
+    padding: 10px;
+    font-size: 10px;
+    color: aqua;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Bloque de texto */
+.text-block {
+    width: 65%;
+    padding-right: 20px;
+}
+
+/* Bloque de imagen */
+.image-block {
+    width: 30%;
+}
+
+.image-block img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el bloque de la imagen */
+.image-block figure {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen dentro del figure */
+.image-block figure img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Texto debajo de la imagen */
+.image-block figure figcaption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Estilo para el bloque de sección */
+.section-block {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f9f9f9;
+
+}
+
+/* Título */
+.section-block h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Línea debajo del título */
+.section-block hr {
+    border: none;
+    border-top: 2px solid #ddd;
+    margin-bottom: 15px;
+}
+
+/* Párrafo de texto */
+.section-block p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
